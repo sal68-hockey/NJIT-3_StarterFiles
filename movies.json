@@ -69,4 +69,47 @@
             "dislikes": 101,
             "posterindex": 0
       }
-]
+      ,
+            {
+                  "title": "Creature from the Black Lagoon",
+                  "iscore": 6.5,
+                  "rating": "G",
+                  "runtime": 79,
+                  "released": [1954, 2, 12],
+                  "country": "USA",
+                  "posters": ["img/creature.jpg"],
+                  "imdb": "https://www.imdb.com/title/tt0046876/",
+                  "website": "https://www.universalstudios.com/movies/creature-black-lagoon",
+                  "likes": 210,
+                  "dislikes": 45,
+                  "posterindex": 0
+            },
+            {
+                  "title": "Platoon",
+                  "iscore": 8.1,
+                  "rating": "R",
+                  "runtime": 120,
+                  "released": [1986, 12, 19],
+                  "country": "USA",
+                  "posters": ["img/platoon.jpg"],
+                  "imdb": "https://www.imdb.com/title/tt0091763/",
+                  "website": "https://www.sonypictures.com/movies/platoon",
+                  "likes": 500,
+                  "dislikes": 60,
+                  "posterindex": 0
+            },
+            {
+                  "title": "Slap Shot",
+                  "iscore": 7.3,
+                  "rating": "R",
+                  "runtime": 123,
+                  "released": [1977, 2, 25],
+                  "country": "USA",
+                  "posters": ["img/slapshot.jpg"],
+                  "imdb": "https://www.imdb.com/title/tt0076723/",
+                  "website": "https://www.uphe.com/movies/slap-shot",
+                  "likes": 320,
+                  "dislikes": 38,
+                  "posterindex": 0
+            }
+      ]

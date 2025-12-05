@@ -117,5 +117,38 @@ body {
 #github{
 	font-size: small;
 }
+.likecolor{
+    background-color: #4CAF50;
+    color: white;
+}
+.dislikecolor{
+    background-color: #f44336;
+    color: white;
+}
 
-/* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
+/* Like and Dislike Hover/Mouseover CSS */
+.likes:hover, .likecolor:hover {
+    background-color: #388e3c;
+    color: #e0ffe0;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+    transform: scale(1.08);
+}
+.dislikes:hover, .dislikecolor:hover {
+    background-color: #b71c1c;
+    color: #ffe0e0;
+    box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+    transform: scale(1.08);
+}
+
+/* Smart improvements for accessibility and clarity */
+.score {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.thumbnail img {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.thumbnail img:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    transform: scale(1.04);
+}
