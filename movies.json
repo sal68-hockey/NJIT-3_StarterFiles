@@ -12,6 +12,7 @@
             "likes": 1021,
             "dislikes": 122,
             "posterindex": 0
+                 ,"bestquote": "Hope is a good thing, maybe the best of things, and no good thing ever dies."
       },
       {
             "title": "The Godfather",
@@ -26,6 +27,7 @@
             "likes": 928,
             "dislikes": 109,
             "posterindex": 0
+                 ,"bestquote": "I'm gonna make him an offer he can't refuse."
       },
       {
             "title": "The Godfather: Part II",
@@ -40,6 +42,7 @@
             "likes": 855,
             "dislikes": 99,
             "posterindex": 0
+                 ,"bestquote": "Keep your friends close, but your enemies closer."
       },
       {
             "title": "The Dark Knight",
@@ -54,6 +57,7 @@
             "likes": 828,
             "dislikes": 127,
             "posterindex": 0
+                 ,"bestquote": "Why so serious?"
       },
       {
             "title": "Schindler's List",
@@ -68,6 +72,7 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+                 ,"bestquote": "Whoever saves one life, saves the world entire."
       }
       ,
             {
@@ -83,6 +88,7 @@
                   "likes": 210,
                   "dislikes": 45,
                   "posterindex": 0
+                       ,"bestquote": "I told you not to go in the water."
             },
             {
                   "title": "Platoon",
@@ -97,6 +103,7 @@
                   "likes": 500,
                   "dislikes": 60,
                   "posterindex": 0
+                       ,"bestquote": "The first casualty of war is innocence."
             },
             {
                   "title": "Slap Shot",
@@ -111,5 +118,6 @@
                   "likes": 320,
                   "dislikes": 38,
                   "posterindex": 0
+                       ,"bestquote": "You do that, you go to the box. Two minutes by yourself, and you feel shame, you know. And then you get free."
             }
       ]
