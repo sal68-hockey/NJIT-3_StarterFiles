@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <rect width="100%" height="100%" fill="#1f4d2e" />
+  <rect x="20" y="20" width="560" height="860" rx="6" fill="#102a18" opacity="0.6"/>
+  <text x="50%" y="45%" font-family="Impact, Arial, sans-serif" font-size="44" fill="#ffd966" text-anchor="middle">Slap Shot</text>
+  <text x="50%" y="52%" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#fff3cc" text-anchor="middle">(1977)</text>
+  <g transform="translate(50,620)">
+    <rect width="500" height="220" rx="8" fill="#07170d"/>
+    <text x="250" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#ffd966" text-anchor="middle">Hockey Comedy</text>
+    <text x="250" y="80" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffe9b8" text-anchor="middle">Chaotic, rough-and-tumble rink antics</text>
+  </g>
+</svg>

@@ -28,7 +28,7 @@
     <div id="vue_app" class="container">
       <div class="header">
         <div class="container">
-          <h1 id="app_title"> sals movies list </h1>
+          <h1 id="app_title">{{ title }}</h1>
         </div>
       </div>
 
@@ -40,20 +40,22 @@
                 @click="posterClick(index)"
                 class="poster img-fluid"
                 :src="movie.posters[movie.posterindex]"
+                :alt="movie.title + ' poster'"
               />
               <div class="imageInfo">{{movie.posterindex + 1}} of {{movie.posters.length}}</div>
 
               <p class="title">{{movie.title}} ({{movie.country}})</p>
               <p class="score">
-                <i class="bi bi-star" aria-hidden="true"></i> {{iscore}}
+                <i class="bi bi-star" aria-hidden="true"></i> {{movie.iscore}}
               </p>
               <p class="runtime">Runtime: {{timeText(movie.runtime)}}</p>
               <p class="released">
                 Released: {{makeTextDate(movie.released)}} | Rated:
                 {{movie.rating}}
               </p>
-              <p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+              <p class="websites">Websites: <a :href="movie.imdb" target="_blank">IMDB</a> | <a :href="movie.website" target="_blank">Official Site</a></p>
 
+              <p class="bestquote"><strong>Quote:</strong> {{ movie.bestquote }}</p>
               <div class="social">
                 <p class="likes likecolor" @click="like(index)">
                   <i class="bi bi-hand-thumbs-up" aria-hidden="true"></i>
